@@ -93,7 +93,7 @@ int main() {
 
     print_stats("RDTSC Delta Check", b2b, SAMPLES);
     Sleep(250);// optional pause
-    print_stats("CPUID VM Exit Timing Check", cpuid_latency, SAMPLES);
+    print_stats("CPUID VM-Exit Timing Check", cpuid_latency, SAMPLES);
 
     std::cout << GRAY << "https://github.com/spamByte/rdtsc-timing-check\n";
     std::cout << RESET << "Press any key to exit...";
